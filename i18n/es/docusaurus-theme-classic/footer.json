@@ -1,0 +1,8 @@
+{
+  "link.item.label.Introduction": { "message": "Introducción" },
+  "link.item.label.Quick Start": { "message": "Inicio Rápido" },
+  "link.item.label.Pipeline": { "message": "Pipeline" },
+  "link.item.label.Providers": { "message": "Proveedores" },
+  "link.item.label.GitHub": { "message": "GitHub" },
+  "link.item.label.Vali-Mediator": { "message": "Vali-Mediator" }
+}

@@ -1,0 +1,10 @@
+{
+  "sidebar.docsSidebar.doc.introduction": { "message": "Introducción" },
+  "sidebar.docsSidebar.doc.quick-start": { "message": "Inicio Rápido" },
+  "sidebar.docsSidebar.category.Core Concepts": { "message": "Conceptos Fundamentales" },
+  "sidebar.docsSidebar.category.Pipeline": { "message": "Pipeline" },
+  "sidebar.docsSidebar.category.Resumable Uploads": { "message": "Subidas Reanudables" },
+  "sidebar.docsSidebar.category.Providers": { "message": "Proveedores" },
+  "sidebar.docsSidebar.category.Advanced": { "message": "Avanzado" },
+  "sidebar.docsSidebar.doc.packages": { "message": "Paquetes" }
+}

@@ -1,0 +1,5 @@
+# Vali-Blob Docs — Netlify redirects
+# Each locale needs its own SPA fallback so Docusaurus router works correctly.
+
+/es/*   /es/index.html   200
+/*      /index.html      200
