@@ -1,5 +1,5 @@
 /**
- * ValiBlob Docs — premium custom theme
+ * Vali-Blob Docs — premium custom theme
  * Brand: Indigo #6366F1 · Violet #8B5CF6 · Cyan #22D3EE
  * Fonts: Space Grotesk (headings/body) · Space Mono (code)
  */
@@ -30,7 +30,7 @@
   --ifm-navbar-height: 62px;
   --ifm-sidebar-width: 280px;
 
-  /* ValiBlob brand tokens */
+  /* Vali-Blob brand tokens */
   --vb-indigo: #6366f1;
   --vb-violet: #8b5cf6;
   --vb-cyan: #22d3ee;
@@ -60,9 +60,9 @@
 
   /* Docusaurus surface / background overrides */
   --ifm-background-color: #0a0a0e;
-  --ifm-navbar-background-color: #0d0d14;
-  --ifm-footer-background-color: #000005;
-  --ifm-background-surface-color: #111116;
+  --ifm-navbar-background-color: #0a0a0e;
+  --ifm-footer-background-color: #0a0a0e;
+  --ifm-background-surface-color: #0a0a0e;
 
   /* New premium tokens — dark */
   --vb-bg-doc: #0a0a0e;
@@ -290,7 +290,7 @@ body:has(.navbar-sidebar--show) {
 }
 
 [data-theme='dark'] .theme-doc-sidebar-container {
-  background: linear-gradient(180deg, #08080e 0%, #0b0a14 60%, #0d0c18 100%);
+  background: #0a0a0e;
   border-right: 1px solid rgba(99, 102, 241, 0.1) !important;
 }
 
@@ -724,6 +724,14 @@ tbody tr:hover {
   color: #a5b4fc;
 }
 
+.footer__link-item {
+  color: #4b5563;
+}
+
+.footer__copyright {
+  color: #6b7280;
+}
+
 .footer__link-item:hover {
   color: #6366f1;
   text-decoration: none;
@@ -802,4 +810,17 @@ tbody tr:hover {
     display: flex;
     align-items: center;
   }
+}
+
+/* ── DOC PAGE — uniform background ── */
+[data-theme='dark'] html,
+[data-theme='dark'] body,
+[data-theme='dark'] .main-wrapper,
+[data-theme='dark'] .docPage,
+[data-theme='dark'] .docMainContainer,
+[data-theme='dark'] .docItemContainer,
+[data-theme='dark'] .col.docItemCol,
+[data-theme='dark'] .theme-doc-markdown,
+[data-theme='dark'] article {
+  background-color: #0a0a0e !important;
 }
